@@ -18,8 +18,8 @@
 		count++;
 	}%> <%
  	String name = request.getParameter("name");
- 	byte bb[] = name.getBytes("UTF-8");
- 	name = new String(bb);
+ 	//byte bb[] = name.getBytes("UTF-8");
+ 	//name = new String(bb);
  	if (name.length() == 0 || name.length() > 10) {
  %><jsp:forward page="e2_14.jsp" /> <%
  	}
