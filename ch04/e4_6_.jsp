@@ -3,7 +3,10 @@
 <body bgcolor=cyan>
 	<font size=2>
 	<%
+<<<<<<< HEAD
 	request.setCharacterEncoding("UTF-8");	//输出中文
+=======
+>>>>>>> cf6fedc45c1a97df9d6b244b636e18ace65184ad
 	int score = 0;
 	String countryName = request.getParameter("R");
 	String itemNames[] = request.getParameterValues("item");
@@ -21,7 +24,11 @@
 	out.print("<br>您提交的答案二：");
 	if (itemNames != null)
 		for (int k = 0; k < itemNames.length; k++)
+<<<<<<< HEAD
 			out.print(itemNames[k] + " ");
+=======
+			out.print(" " + itemNames[k]);
+>>>>>>> cf6fedc45c1a97df9d6b244b636e18ace65184ad
 	out.println("<br>你提交的隐藏信息：" + secretMess);
 	%>
 	</font>
