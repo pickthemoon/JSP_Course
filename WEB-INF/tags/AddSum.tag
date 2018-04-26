@@ -1,4 +1,4 @@
-<%@tag pageEncoding="UTF-8"%>
+<%@ tag pageEncoding="UTF-8"%>
 <p>
 	这是一个tag文件，负责计算1~100内的偶数之和：
 	<%
