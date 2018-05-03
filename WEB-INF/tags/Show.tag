@@ -1,4 +1,4 @@
-<%@tag pageEncoding="UTF-8"%>
+<%@ tag pageEncoding="UTF-8"%>
 <body bgcolor=yellow>
 	<p>
 		<%
