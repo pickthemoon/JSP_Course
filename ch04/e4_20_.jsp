@@ -24,7 +24,11 @@
 			String str = null;
 			str = request.getParameter("txt");
 			if (str == null)
+<<<<<<< HEAD
 				str = "";
+=======
+			str = "";
+>>>>>>> fe9f4f324789919bd2b92d36d3cb84ccf6124772
 			out.println("您输入的字符串的长度： " + str.length());
 			long receiveTime = System.currentTimeMillis();
 			session.setAttribute("time", receiveTime);
